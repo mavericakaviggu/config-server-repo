@@ -5,7 +5,7 @@ spring:
     password: root4977
     driver-class-name: com.mysql.cj.jdbc.Driver
   # name of the application displayed in the Eureka dashboard
-spring:
+
   boot:
     message: Hello world
 
@@ -16,6 +16,13 @@ spring:
     # properties:
     #   hibernate:
     #     dialect: org.hibernate.dialect.MySQLDialect
+
+  
+server:
+  port: 8080
+	   
+			
+
 # Eureka server configuration
 eureka:
   client:
