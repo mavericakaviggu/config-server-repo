@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   # name of the application displayed in the Eureka dashboard
   boot:
-    message: Hello world
+    message: Hello world from the employee
 
   jpa:
     hibernate:
