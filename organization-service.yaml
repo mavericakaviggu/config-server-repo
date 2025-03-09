@@ -6,7 +6,8 @@ spring:
      driver-class-name: com.mysql.cj.jdbc.Driver
   boot:
     message: Welcome to Organization Service  
-
+server:
+  port: 8083
 
 management:
   jpa:
