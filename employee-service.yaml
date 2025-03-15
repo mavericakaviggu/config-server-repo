@@ -8,18 +8,6 @@ spring:
   boot:
     message: Hello world from the employee
 
-  cloud:
-    gateway:
-      globalcors:
-        cors-configurations:
-          '[/**]':
-            allowedOrigins: "*"
-            allowedMethods:
-              - GET
-              - POST
-              - PUT
-              - DELETE
-
   jpa:
     hibernate:
       ddl-auto: update
